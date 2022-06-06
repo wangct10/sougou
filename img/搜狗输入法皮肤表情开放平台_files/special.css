@@ -1,0 +1,104 @@
+/*单选框样式*/
+.radio_box{
+}
+.radio_box ul li.selected {
+    background: url(/static/i/radio_02.png) 0px center no-repeat;
+}
+.radio_box ul li {
+    background: url(/static/i/radio_01.png) 0px center no-repeat;
+    line-height: 20px;
+    font-size: 14px;
+    color: #666666;
+    cursor: default;
+    padding-left: 20px;
+    width:140px;
+    float: left;
+}
+.radio_box1 ul li{
+	width:70px;
+	line-height: 46px;
+}
+.user_r_form_ul li {
+    margin-bottom: 29px;
+}
+
+/*上传头像*/
+.showAvatar{
+	width: 200px;
+	height: 200px;
+	margin: 20px 0;
+}
+.showAvatar img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.userinfo_avatar{
+	width: 200px;
+}
+.imgwrap {
+    text-align: center;
+    font-size: 0;
+    overflow: hidden;
+}
+.logon_infor_addimg {
+    border: 1px dashed #e0e1e7;
+    background: url(/static/i/add1.png) no-repeat center center;
+    border-radius: 4px;
+    position: relative;
+}
+.addimgsize200 {
+    width: 200px;
+    height: 200px;
+}
+#filePicker1 {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*input*/
+.input_text {
+    height: 32px;
+    padding-left: 10px;
+    border: 1px solid #e0e1e7;
+    border-radius: 4px;
+    line-height: 32px;
+    color: #666666;
+    font-size: 14px;
+    overflow: auto;
+    word-break: break-all;
+    padding-right: 15px;
+
+}
+.input_sizew460 {
+    width: 433px;
+}
+.editorafter .input_label {
+    cursor: pointer;
+    position: absolute;
+    right: 45px;
+    bottom: 0;
+    line-height: 46px;
+    color: #666666;
+    font-size: 14px;
+}
+.input_text.erro{
+	border: 1px solid #ff0000;
+}
+input.input_text.erro::-webkit-input-placeholder, textarea::-webkit-input-placeholder {color: #ff0000;}
+input.input_text.erro:-moz-placeholder, textarea:-moz-placeholder {color: #ff0000;}
+input.input_text.erro::-moz-placeholder, textarea::-moz-placeholder {color: #ff0000;}
+input.input_text.erro:-ms-input-placeholder, textarea:-ms-input-placeholder {color: #ff0000;}
+.error_notice{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding-left: 10px;
+	font-size: 14px;
+	line-height: 46px;
+	color: #ff0000;
+}
